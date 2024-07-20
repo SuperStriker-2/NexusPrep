@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body {
+  margin: 0;
+  /* overflow: auto; */
+  background: #0f0f0f;
+}
+
+#defaultCanvas0 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -10;
+  width: 100vw !important;
+  height: auto !important;
+
+}
+
+.wrapper {
+  margin: 3em;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 0em 1em;
+}
+
+.linktree {
+  display: flex;
+  gap: 3em;
+  justify-content: space-around;
+}
+
+.linktree > a, .linktree > a:visited {
+  color: white;
+  text-decoration: none;
+  font-family: "Anybody";
+  transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+  padding: 1em 0em;
+}
+
+.linktree > a:hover {
+  padding: 1em 1.5em;
+  border: 2px solid rgba(106,198,14,0.3);
+}
+
+.hero {
+  display:flex;
+  gap: 4em;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  margin: auto;
+  margin-top: 10em;
+}
+
+.hero h2 {
+  font-family: "Anybody";
+  font-weight: 350;
+  font-size: 4em;
+  color: white;
+}
+
+.green {
+  color: #356307;
+  text-shadow: 0px 0px 20px #3F6F0F;
+}
+
+.services, .why-us {
+  display : flex;
+  flex-direction: column;
+  gap: 5em;
+  margin-top: 20em;
+}
+
+.services > h2, .why-us > h2 {
+  width: fit-content;
+  font-family: "Anybody";
+  font-size: 8rem;
+  font-weight: 350;
+  margin: auto;
+  background: linear-gradient(to right,rgba(218, 255, 195, 1),rgba(93, 104, 87, 1));
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.glide {
+  width: 70%;
+  margin: auto;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  color: white;
+  font-family: "Anybody"
+}
+
+.slide {
+  display: inline-flex;
+  background: rgba(14, 14, 14, 1);
+  border-radius: 20px;
+  /* border: 2px solid rgba(218, 255, 195, 0.3); */
+  padding : 5em 0em;
+  justify-content: space-around;
+  width: 100%;
+  box-shadow: 3px 3px 0px rgba(218, 255, 195, 1);
+  /* height: 70vh; */
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Mako";
+  width: 40%;
+}
+
+.title > h3 {
+  flex-wrap: wrap;
+  text-align: center;
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  font-family: "Mako";
+  font-size: 3rem;
+  font-weight: 350;
+  background: linear-gradient(to bottom,rgba(218, 255, 195, 1),rgba(93, 104, 87, 1));
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+white-space: initial;
+}
+
+.title > a, .title > a:visited {
+  padding:0.5em 2.5em;
+  border:  3px solid #51634E;
+  box-shadow: 3px 3px 5px rgba(218, 255, 195, 1);
+  width: fit-content;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+.title>a:hover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 10px; /* control the border thickness */
+  background: linear-gradient(45deg, red, blue);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
+}
+
+.slide > .table {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tr {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0em;
+  border-bottom : 1px solid white;
+}
+
+ .slide p {
+   width: fit-content;
+   padding: 1em;
+ }
+
+ .slide .tr >p:nth-child(2) {
+   color : #2F542F;
+ }
+
+ .tr:nth-child(5){
+   border: none;
+ }
+
+.glide {
+  display: flex;
+  flex-direction: column;
+  gap:3em;
+  /* align-items: center; */
+}
+
+.grid-container {
+  z-index: 10;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+  align-items: center;
+}
+
+.grid-item {
+  background: #313F28;
+  padding: 3em;
+  border-radius: 20px;
+  color: white;
+}
+
+.grid-inner {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.back {
+    padding-left: 1em;
+}
+
+.back h4{
+
+  font-family: "Anybody";
+  font-size: 2rem;
+}
+
+.back p {
+  font-family: "Mako";
+}

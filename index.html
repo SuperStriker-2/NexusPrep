@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nexus-Prep</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- mako -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- anybody -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mako&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+    <script>
+      AOS.init();
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+    <header>
+      <a href="#"><img src="imgs\nexus-prep-logo(1).png" alt="logo"></a> <!-- logo -->
+      <div class="linktree">
+        <a href="#services">Services</a>
+        <a href="#why-us">Why Us?</a>
+        <a href="#hiring">Hiring</a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <img src="imgs\nexus-prep-logo 1.png" alt="Logo">
+      <h2 class="animate__animated animate__flipInX">
+        Where <span class="green">education </span>meets <span class="green">inspiration</span>
+      </h2>
+    </section>
+
+    <section class="services">
+      <h2>Services</h2>
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <div class="glide__slides">
+              <div class="slide glide__slide">
+                <div class="title">
+                  <h3>High School Tutoring</h3>
+                  <a href="#">Register</a>
+                </div>
+                <div class="table">
+                  <div class="tr">
+                    <p>MATH</p>
+                    <p>$45/HR</p>
+                  </div>
+                  <div class="tr">
+                    <p>SCIENCE</p>
+                    <p>$40/HR</p>
+                  </div>
+                  <div class="tr">
+                    <p>CS</p>
+                    <p>$40/HR</p>
+                  </div>
+                  <div class="tr">
+                    <p>SOCIAL SCIENCE</p>
+                    <p>$35/HR</p>
+                  </div>
+                  <div class="tr">
+                    <p>ENGLISH</p>
+                    <p>$35/HR</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="slide glide__slide">
+                <div class="title">
+                  <h3>Jr. Test Prep</h3>
+                  <a href="#">Register</a>
+                </div>
+                <div class="table">
+                  <div class="tr">
+                    <p>AP/IB STEM</p>
+                    <p>$50/HR</p>
+                  </div>
+                  <div class="tr">
+                    <p>AP/IB LIBERAL ARTS</p>
+                    <p>$45/HR</p>
+                  </div>
+                  <div class="tr">
+                    <p>SAT/ACT</p>
+                    <p>$40/HR</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="slide glide__slide">
+                <div class="title">
+                  <h3>Sr. Test Prep</h3>
+                  <a href="#">Register</a>
+                </div>
+                <div class="table">
+                  <div class="tr">
+                    <p>LSAT</p>
+                    <p>$170/HR</p>
+                  </div>
+                  <div class="tr">
+                    <p>GMAT</p>
+                    <p>$170/HR</p>
+                  </div>
+                  <div class="tr">
+                    <p>MCAT</p>
+                    <p>$160/HR</p>
+                  </div>
+                  <div class="tr">
+                    <p>GRE</p>
+                    <p>$140/HR</p>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+
+        <script>
+          const config = {
+            // type: "carousel",
+            startAt: 0,
+            perView: 1,
+            // autoplay: 5000,
+            gap: 50,
+            animationDuration: 1500
+          };
+          new Glide('.glide', config).mount()
+        </script>
+
+    </section>
+
+    <section class="why-us">
+      <h2>Why Us</h2>
+      <div class="grid-container">
+        <!-- 1 -->
+        <div class="grid-item"    data-aos="fade-right"><div class="grid-inner">
+          <div class="front">
+            <img src="imgs\carbon_education.png" alt="">
+          </div>
+          <div class="back">
+            <h4>Expert Tutors</h4>
+            <p>Our tutors are among the best, scoring in the 99th percentile on the tests they teach. Their expertise and firsthand experience provide you with unparalleled insights and strategies to excel.</p>
+          </div></div>
+        </div>
+        <!-- 2 -->
+        <div class="grid-item"   data-aos="fade-left"><div class="grid-inner">
+          <div class="front">
+            <img src="imgs\carbon_person.png" alt="">
+          </div>
+          <div class="back">
+            <h4>Personalized Learning</h4>
+            <p>We recognize that every student is unique. Our tailored tutoring programs are designed to address your specific strengths and weaknesses, ensuring a customized learning experience that maximizes your potential.
+</p>
+          </div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="grid-item"   data-aos="fade-right"><div class="grid-inner">
+          <div class="front">
+            <img src="imgs\Group.png" alt="">
+          </div>
+          <div class="back">
+            <h4>Proven Success</h4>
+            <p>Our track record speaks for itself. Nexus Prep students consistently achieve impressive score improvements and gain admission to top-tier colleges and graduate programs. Your success is our ultimate goal.</p>
+          </div>
+        </div></div>
+        <!-- 4 -->
+        <div class="grid-item"   data-aos="fade-left"><div class="grid-inner">
+          <div class="front">
+            <img src="imgs\Group(1).png" alt="">
+          </div>
+          <div class="back">
+            <h4>Flexible Scheduling</h4>
+            <p>e offer a variety of scheduling options to accommodate your busy life. Whether you prefer in-person sessions or online tutoring, we are here to fit your needs.</p>
+          </div>
+        </div></div>
+        <!-- 5 -->
+        <div class="grid-item"   data-aos="fade-right"><div class="grid-inner">
+          <div class="front">
+            <img src="imgs\akar-icons_price-cut.png" alt="">
+          </div>
+          <div class="back">
+            <h4>Competitive Pricing</h4>
+            <p>Quality education should be accessible. We offer competitive pricing packages that deliver exceptional value, ensuring you receive top-notch tutoring without breaking the bank.</p>
+          </div>
+        </div></div>
+        <!-- 6 -->
+        <div class="grid-item"   data-aos="fade-left"><div class="grid-inner">
+          <div class="front">
+            <img src="imgs\material-symbols_folder.png" alt="">
+          </div>
+          <div class="back">
+            <h4>Comprehensive Resources</h4>
+            <p>Our students have access to an extensive array of study materials, practice tests, and proprietary resources developed to give you an edge in your preparation.</p>
+          </div>
+        </div></div>
+        <!-- 7 -->
+        <div class="grid-item"   data-aos="fade-right"><div class="grid-inner">
+          <div class="front">
+            <img src="imgs\gis_network.png" alt="">
+          </div>
+          <div class="back">
+            <h4>Supportive Environment</h4>
+            <p>At Nexus Prep, we foster a supportive and encouraging atmosphere. Our tutors are not just instructors, but mentors who motivate and inspire you to reach your highest potential.</p>
+          </div>
+        </div></div>
+        <!-- 8 -->
+        <div class="grid-item"   data-aos="fade-left"><div class="grid-inner">
+          <div class="front">
+            <img src="imgs\fluent_person-feedback-16-filled.png" alt="">
+          </div>
+          <div class="back">
+            <h4>Continuous Feedback</h4>
+            <p>We provide regular progress reports and constructive feedback to keep you on track and ensure continuous improvement.</p>
+          </div>
+        </div></div>
+        <!-- 9 -->
+        <div class="grid-item"   data-aos="fade-right"><div class="grid-inner">
+          <div class="front">
+            <img src="imgs\iconoir_graph-up.png" alt="">
+          </div>
+          <div class="back">
+            <h4>Success Beyond Tests</h4>
+            <p>We equip you with skills that go beyond standardized tests. Critical thinking, problem-solving, and effective study habits are integral parts of our tutoring approach.</p>
+          </div>
+        </div></div>
+        <!-- 10 -->
+        <div class="grid-item"   data-aos="fade-left"><div class="grid-inner">
+          <div class="front">
+            <img src="imgs\mdi_speak.png" alt="">
+          </div>
+          <div class="back">
+            <h4>Holistic Approach</h4>
+            <p>We understand that test preparation is just one part of the journey. Our holistic approach includes college and career counseling to guide you every step of the way.</p>
+          </div>
+        </div></div>
+      </div>
+    </section>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript" data-type="module">
+    /*--------------------
+Vars
+--------------------*/
+const deg = (a) => Math.PI / 180 * a
+const rand = (v1, v2) => Math.floor(v1 + Math.random() * (v2 - v1))
+const opt = {
+  particles: window.width / 500 ? 1000 : 500,
+  noiseScale: 0.009,
+  angle: Math.PI / 180 * -90,
+  h1: 126,
+  h2: 91,
+  s1: 39,
+  s2: 23,
+  l1: 50,
+  l2: 60,
+  strokeWeight: 1.8,
+  tail: 80,
+}
+const Particles = []
+let time = 0
+document.body.addEventListener('click', () => {
+  // opt.h1 = rand(0, 360)
+  // opt.h2 = rand(0, 360)
+  // opt.s1 = rand(20, 90)
+  // opt.s2 = rand(20, 90)
+  // opt.l1 = rand(30, 80)
+  // opt.l2 = rand(30, 80)
+  opt.angle += deg(random(60, 60)) * (Math.random() > .5 ? 1 : -1)
+
+  for (let p of Particles) {
+    p.randomize()
+  }
+})
+
+
+/*--------------------
+Particle
+--------------------*/
+class Particle {
+  constructor(x, y) {
+    this.x = x
+    this.y = y
+    this.lx = x
+    this.ly = y
+    this.vx = 0
+    this.vy = 0
+    this.ax = 0
+    this.ay = 0
+    this.hueSemen = Math.random()
+    this.hue = this.hueSemen > .5 ? opt.h1 : opt.h2
+    this.sat = this.hueSemen > .5 ? opt.s1 : opt.s2
+    this.light = this.hueSemen > .5 ? opt.l1 : opt.l2
+    this.maxSpeed = this.hueSemen > .5 ? 3 : 2
+  }
+
+  randomize() {
+    this.hueSemen = Math.random()
+    this.hue = this.hueSemen > .5 ? 20 + opt.h1 : 20 + opt.h2
+    this.sat = this.hueSemen > .5 ? opt.s1 : opt.s2
+    this.light = this.hueSemen > .5 ? opt.l1 : opt.l2
+    this.maxSpeed = this.hueSemen > .5 ? 3 : 2
+  }
+
+  update() {
+    this.follow()
+
+    this.vx += this.ax
+    this.vy += this.ay
+
+    var p = Math.sqrt(this.vx * this.vx + this.vy * this.vy)
+    var a = Math.atan2(this.vy, this.vx)
+    var m = Math.min(this.maxSpeed, p)
+    this.vx = Math.cos(a) * m
+    this.vy = Math.sin(a) * m
+
+    this.x += this.vx
+    this.y += this.vy
+    this.ax = 0
+    this.ay = 0
+
+    this.edges()
+  }
+
+  follow() {
+    let angle = (noise(this.x * opt.noiseScale, this.y * opt.noiseScale, time * opt.noiseScale)) * Math.PI * 0.5 + opt.angle
+
+    this.ax += Math.cos(angle)
+    this.ay += Math.sin(angle)
+
+  }
+
+  updatePrev() {
+    this.lx = this.x
+    this.ly = this.y
+  }
+
+  edges() {
+    if (this.x < 0) {
+      this.x = width
+      this.updatePrev()
+    }
+    if (this.x > width) {
+      this.x = 0
+      this.updatePrev()
+    }
+    if (this.y < 0) {
+      this.y = height
+      this.updatePrev()
+    }
+    if (this.y > height) {
+      this.y = 0
+      this.updatePrev()
+    }
+  }
+
+  render () {
+    stroke(`hsla(${this.hue}, ${this.sat}%, ${this.light}%, .5)`)
+    line(this.x, this.y, this.lx, this.ly)
+    this.updatePrev()
+  }
+}
+
+
+/*--------------------
+Setup
+--------------------*/
+function setup() {
+  createCanvas(windowWidth, windowHeight)
+  for (let i = 0; i < opt.particles; i++) {
+    Particles.push(new Particle(Math.random() * width, Math.random() * height))
+  }
+  strokeWeight(opt.strokeWeight)
+}
+
+
+/*--------------------
+Draw
+--------------------*/
+function draw() {
+  time++
+  background(0, 100 - opt.tail)
+
+  for (let p of Particles) {
+    p.update()
+    p.render()
+  }
+}
+
+
+/*--------------------
+Resize
+--------------------*/
+function windowResized() {
+  resizeCanvas(window.innerWidth, window.innerHeight);
+}
+</script>
+</html>
