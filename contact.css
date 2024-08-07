@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body {
+  margin: 0;
+  /* overflow: auto; */
+  background: #0f0f0f;
+}
+
+.wrapper {
+  margin: 3em;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 0em 1em;
+}
+
+.linktree {
+  display: flex;
+  gap: 3em;
+  justify-content: space-around;
+}
+
+.linktree > a, .linktree > a:visited {
+  color: white;
+  text-decoration: none;
+  font-family: "Anybody";
+  transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+  padding: 1em 0em;
+}
+
+.linktree > a:hover {
+  padding: 1em 1.5em;
+  border: 2px solid rgba(106,198,14,0.3);
+}
+
+.main {
+  display : flex;
+  width:80vw;
+  margin:auto;
+  margin-top: 7em;
+  font-family: "Mako";
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  color: white;
+  font-size: 1.3rem;
+  margin:auto;
+}
+
+.left h2 {
+  width: fit-content;
+  font-family: "Anybody";
+  font-size: 5rem;
+  font-weight: 350;
+  background: linear-gradient(to right,#616F39,#A7D129,#3E432E);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.contacts {
+  display : flex;
+  flex-direction: column;
+  gap:2em;
+}
+
+.contacts div {
+  display: flex;
+  gap:1em;
+}
+
+.right {
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  width:40%;
+  margin: auto;
+  padding: 6em 0em;
+  display: flex;
+  flex-direction: column;
+  gap:3em;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.right h5 {
+  font-family: "Anybody";
+  font-size: 2rem;
+  color: #A7D129
+}
+
+.form {
+  width:90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.form .input-icons {
+  border-radius: 10px;
+  background: white;
+  padding: 0.5em;
+  box-shadow: 2px 2px 0px 2px #A7D129;
+}
+
+
+.form textarea, .form input {
+  background: white;
+  font-family: "Mako";
+  font-size: 1.1rem;
+  width:95%;
+  resize: none;
+  border: none;
+}
+
+.right input:focus, .right textarea:focus {
+  outline: none;
+}
+
+#btn {
+  transition: all 0.5s ease-in-out;
+}
+
+#btn:hover {
+  transform: scale(1.03);
+}
+
+footer {
+  color: white;
+  font-family: "Mako";
+  background: #A7D129;
+  padding: 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 10em;
+}
+
+.icons {
+  display: flex;
+  gap: 1em;
+}
+
+.icons img {
+  width: 3em;
+}
